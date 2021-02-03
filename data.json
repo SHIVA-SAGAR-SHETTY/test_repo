@@ -1,0 +1,89 @@
+[
+    {
+        "masterNodeOs": "WINDOWS",
+        "sumVersion": {
+            "version": "8.6.0",
+            "buildNo": "18"
+        },
+        "exitCode": -3,
+        "date": "Feb-17-2020 11:42:48:974 am",
+        "mode": "GUI",
+        "nodes": [
+            {
+                "node": "localhost",
+                "data": {
+                    "deployType": "Interactive",
+                    "date": "Feb-17-2020 11:50:19:324 am",
+                    "PciDevicesMatched": {},
+                    "OverallDeployTime": "4",
+                    "InventoryStageTime": "NA",
+                    "NodeInventoryTime": "302",
+                    "componentList": [
+                        {
+                            "ComponentName": "cp041180.exe",
+                            "Description": "HPE Smart Storage Administrator (HPE SSA) CLI for Windows 64-bit(cp041180)",
+                            "ResultCode": "-3",
+                            "PreviousVersion": null,
+                            "InstalledVersion": "5.10.13.0",
+                            "ComponentReturnCode": "Update returned an error",
+                            "SigntaureVerfication": "PASSED",
+                            "ComponentFileSize": null,
+                            "DeviceUpdated": null
+                        },
+                        {
+                            "ComponentName": "cp041181.exe",
+                            "Description": "HPE Smart Storage Administrator Diagnostic Utility (HPE SSADU) CLI for Windows 64-bit(cp041181)",
+                            "ResultCode": "-3",
+                            "PreviousVersion": null,
+                            "InstalledVersion": "5.10.13.0",
+                            "ComponentReturnCode": "Update returned an error",
+                            "SigntaureVerfication": "PASSED",
+                            "ComponentFileSize": null,
+                            "DeviceUpdated": null
+                        },
+                        {
+                            "ComponentName": "cp041179.exe",
+                            "Description": "HPE Smart Storage Administrator (HPE SSA) for Windows 64-bit(cp041179)",
+                            "ResultCode": "-3",
+                            "PreviousVersion": null,
+                            "InstalledVersion": "5.10.13.0",
+                            "ComponentReturnCode": "Update returned an error",
+                            "SigntaureVerfication": "PASSED",
+                            "ComponentFileSize": null,
+                            "DeviceUpdated": null
+                        }
+                    ],
+                    "Os": {
+                        "name": "Windows Server 2012 R2 Standard",
+                        "version": "6.3.9600.2"
+                    },
+                    "serverInfo": {
+                        "model": "VMware Virtual Platform",
+                        "rom": "6.0-12/12/2018",
+                        "iLOVersion": null
+                    },
+                    "serialNo": "VMware-42 25 44 48 b7 47 7d e0-bf c2 91 47 e5 b3 84 67",
+                    "storageInfo": [
+                        "Intel(R) 82371AB/EB PCI Bus Master IDE Controller",
+                        "LSI Adapter, SAS 3000 series, 8-port with 1068",
+                        "Intel(R) 82371AB/EB PCI Bus Master IDE Controller"
+                    ],
+                    "PciDevicesList": {
+                        "8086711015ad1976": "Not available",
+                        "8086100f15ad0750": "Not available",
+                        "808610d315ad07d0": "Not available",
+                        "15ad07a015ad07a0": "Not available",
+                        "15ad079015ad0790": "Not available",
+                        "1000005415ad1976": "Not available",
+                        "15ad040515ad0405": "Not available",
+                        "8086719015ad1976": "Not available",
+                        "8086711115ad1976": "Not available",
+                        "80867191": "Not available",
+                        "15ad074015ad0740": "Not available"
+                    }
+                }
+            }
+        ],
+        "logFilename": "SUM_SUT_Logs_02-17-2020_11-56-18.zip"
+    }
+]
